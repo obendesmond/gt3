@@ -63,7 +63,7 @@
     min-height: 50px;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     background: #FF4820;
     border: 2px solid #FF4820;
@@ -111,6 +111,7 @@
 .gpt3__header-image img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 1050px) {
@@ -144,7 +145,7 @@
 
     .gpt3__header-content__input input,
     .gpt3__header-content__input button {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
     }
 }
