@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
 
-export default function componentName() {
-  return <></>;
+export default function Header() {
+  return <div>Header</div>;
 }
